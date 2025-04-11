@@ -1,4 +1,5 @@
 Feature: Verify Elements in Landing page
+
   Scenario: Verify top row of the page
     Given User in Landing page
     When Verify title of the Landing page
