@@ -10,4 +10,5 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"pretty","html:target/htmlReports/RegisterNewUser.html","json:target/jsonReports/RegisterNewUser.json"}
 )
 public class registerUserRunner extends AbstractTestNGCucumberTests {
+
 }

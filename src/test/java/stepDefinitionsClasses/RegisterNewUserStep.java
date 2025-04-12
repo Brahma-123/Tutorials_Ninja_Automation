@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 public class RegisterNewUserStep {
-    WebDriver driver = HooksClass.getDriver();
+    WebDriver driver = Hooks.getDriver();
     RegisterUserPage registerUserPage;
 
     //Step-definition methods to redirect to Register page

@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 public class LandingPageStep {
-    WebDriver driver = HooksClass.getDriver();
+    WebDriver driver = Hooks.getDriver();
     LandingPage landingPage;
 
     //Step definitions for Top panel in landing page

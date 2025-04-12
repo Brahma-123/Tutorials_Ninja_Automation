@@ -2,7 +2,6 @@ package stepDefinitionsClasses;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-public class HooksClass {
+public class Hooks {
     private  static WebDriver driver;
     String browser = "Chrome";
 
@@ -35,6 +34,7 @@ public class HooksClass {
     public void closeBrowser(){
         if(driver!=null){
             driver.close();
+            driver.quit();
         }
     }
 
